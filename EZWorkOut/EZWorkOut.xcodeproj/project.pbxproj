@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB046DEF143D544500C6E6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DEE143D544500C6E6BC /* UIKit.framework */; };
+		CB046DF1143D544500C6E6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DF0143D544500C6E6BC /* Foundation.framework */; };
+		CB046DF3143D544500C6E6BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DF2143D544500C6E6BC /* CoreGraphics.framework */; };
+		CB046DF5143D544500C6E6BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DF4143D544500C6E6BC /* CoreData.framework */; };
+		CB046DFB143D544600C6E6BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB046DF9143D544600C6E6BC /* InfoPlist.strings */; };
+		CB046DFD143D544600C6E6BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB046DFC143D544600C6E6BC /* main.m */; };
+		CB046E01143D544600C6E6BC /* EZWorkOutAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CB046E00143D544600C6E6BC /* EZWorkOutAppDelegate.m */; };
+		CB046E04143D544600C6E6BC /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CB046E02143D544600C6E6BC /* MainWindow.xib */; };
+		CB046E07143D544600C6E6BC /* EZWorkOut.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CB046E05143D544600C6E6BC /* EZWorkOut.xcdatamodeld */; };
+		CB046E0F143D544600C6E6BC /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046E0E143D544600C6E6BC /* SenTestingKit.framework */; };
+		CB046E10143D544600C6E6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DEE143D544500C6E6BC /* UIKit.framework */; };
+		CB046E11143D544600C6E6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DF0143D544500C6E6BC /* Foundation.framework */; };
+		CB046E12143D544600C6E6BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DF2143D544500C6E6BC /* CoreGraphics.framework */; };
+		CB046E13143D544600C6E6BC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB046DF4143D544500C6E6BC /* CoreData.framework */; };
+		CB046E1B143D544600C6E6BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CB046E19143D544600C6E6BC /* InfoPlist.strings */; };
+		CB046E1D143D544600C6E6BC /* EZWorkOutTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CB046E1C143D544600C6E6BC /* EZWorkOutTests.h */; };
+		CB046E1F143D544600C6E6BC /* EZWorkOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CB046E1E143D544600C6E6BC /* EZWorkOutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB046E14143D544600C6E6BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB046DE1143D544500C6E6BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB046DE9143D544500C6E6BC;
+			remoteInfo = EZWorkOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB046DEA143D544500C6E6BC /* EZWorkOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZWorkOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB046DEE143D544500C6E6BC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CB046DF0143D544500C6E6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CB046DF2143D544500C6E6BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CB046DF4143D544500C6E6BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CB046DF8143D544600C6E6BC /* EZWorkOut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZWorkOut-Info.plist"; sourceTree = "<group>"; };
+		CB046DFA143D544600C6E6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB046DFC143D544600C6E6BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB046DFE143D544600C6E6BC /* EZWorkOut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EZWorkOut-Prefix.pch"; sourceTree = "<group>"; };
+		CB046DFF143D544600C6E6BC /* EZWorkOutAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZWorkOutAppDelegate.h; sourceTree = "<group>"; };
+		CB046E00143D544600C6E6BC /* EZWorkOutAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZWorkOutAppDelegate.m; sourceTree = "<group>"; };
+		CB046E03143D544600C6E6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CB046E06143D544600C6E6BC /* EZWorkOut.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EZWorkOut.xcdatamodel; sourceTree = "<group>"; };
+		CB046E0D143D544600C6E6BC /* EZWorkOutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EZWorkOutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB046E0E143D544600C6E6BC /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CB046E18143D544600C6E6BC /* EZWorkOutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EZWorkOutTests-Info.plist"; sourceTree = "<group>"; };
+		CB046E1A143D544600C6E6BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CB046E1C143D544600C6E6BC /* EZWorkOutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EZWorkOutTests.h; sourceTree = "<group>"; };
+		CB046E1E143D544600C6E6BC /* EZWorkOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EZWorkOutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB046DE7143D544500C6E6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB046DEF143D544500C6E6BC /* UIKit.framework in Frameworks */,
+				CB046DF1143D544500C6E6BC /* Foundation.framework in Frameworks */,
+				CB046DF3143D544500C6E6BC /* CoreGraphics.framework in Frameworks */,
+				CB046DF5143D544500C6E6BC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB046E09143D544600C6E6BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB046E0F143D544600C6E6BC /* SenTestingKit.framework in Frameworks */,
+				CB046E10143D544600C6E6BC /* UIKit.framework in Frameworks */,
+				CB046E11143D544600C6E6BC /* Foundation.framework in Frameworks */,
+				CB046E12143D544600C6E6BC /* CoreGraphics.framework in Frameworks */,
+				CB046E13143D544600C6E6BC /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB046DDF143D544500C6E6BC = {
+			isa = PBXGroup;
+			children = (
+				CB046DF6143D544500C6E6BC /* EZWorkOut */,
+				CB046E16143D544600C6E6BC /* EZWorkOutTests */,
+				CB046DED143D544500C6E6BC /* Frameworks */,
+				CB046DEB143D544500C6E6BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB046DEB143D544500C6E6BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB046DEA143D544500C6E6BC /* EZWorkOut.app */,
+				CB046E0D143D544600C6E6BC /* EZWorkOutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB046DED143D544500C6E6BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB046DEE143D544500C6E6BC /* UIKit.framework */,
+				CB046DF0143D544500C6E6BC /* Foundation.framework */,
+				CB046DF2143D544500C6E6BC /* CoreGraphics.framework */,
+				CB046DF4143D544500C6E6BC /* CoreData.framework */,
+				CB046E0E143D544600C6E6BC /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB046DF6143D544500C6E6BC /* EZWorkOut */ = {
+			isa = PBXGroup;
+			children = (
+				CB046DFF143D544600C6E6BC /* EZWorkOutAppDelegate.h */,
+				CB046E00143D544600C6E6BC /* EZWorkOutAppDelegate.m */,
+				CB046E02143D544600C6E6BC /* MainWindow.xib */,
+				CB046E05143D544600C6E6BC /* EZWorkOut.xcdatamodeld */,
+				CB046DF7143D544600C6E6BC /* Supporting Files */,
+			);
+			path = EZWorkOut;
+			sourceTree = "<group>";
+		};
+		CB046DF7143D544600C6E6BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB046DF8143D544600C6E6BC /* EZWorkOut-Info.plist */,
+				CB046DF9143D544600C6E6BC /* InfoPlist.strings */,
+				CB046DFC143D544600C6E6BC /* main.m */,
+				CB046DFE143D544600C6E6BC /* EZWorkOut-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB046E16143D544600C6E6BC /* EZWorkOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB046E1C143D544600C6E6BC /* EZWorkOutTests.h */,
+				CB046E1E143D544600C6E6BC /* EZWorkOutTests.m */,
+				CB046E17143D544600C6E6BC /* Supporting Files */,
+			);
+			path = EZWorkOutTests;
+			sourceTree = "<group>";
+		};
+		CB046E17143D544600C6E6BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB046E18143D544600C6E6BC /* EZWorkOutTests-Info.plist */,
+				CB046E19143D544600C6E6BC /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB046DE9143D544500C6E6BC /* EZWorkOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB046E22143D544600C6E6BC /* Build configuration list for PBXNativeTarget "EZWorkOut" */;
+			buildPhases = (
+				CB046DE6143D544500C6E6BC /* Sources */,
+				CB046DE7143D544500C6E6BC /* Frameworks */,
+				CB046DE8143D544500C6E6BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EZWorkOut;
+			productName = EZWorkOut;
+			productReference = CB046DEA143D544500C6E6BC /* EZWorkOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB046E0C143D544600C6E6BC /* EZWorkOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB046E25143D544600C6E6BC /* Build configuration list for PBXNativeTarget "EZWorkOutTests" */;
+			buildPhases = (
+				CB046E08143D544600C6E6BC /* Sources */,
+				CB046E09143D544600C6E6BC /* Frameworks */,
+				CB046E0A143D544600C6E6BC /* Resources */,
+				CB046E0B143D544600C6E6BC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB046E15143D544600C6E6BC /* PBXTargetDependency */,
+			);
+			name = EZWorkOutTests;
+			productName = EZWorkOutTests;
+			productReference = CB046E0D143D544600C6E6BC /* EZWorkOutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB046DE1143D544500C6E6BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Nistantrii;
+			};
+			buildConfigurationList = CB046DE4143D544500C6E6BC /* Build configuration list for PBXProject "EZWorkOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CB046DDF143D544500C6E6BC;
+			productRefGroup = CB046DEB143D544500C6E6BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB046DE9143D544500C6E6BC /* EZWorkOut */,
+				CB046E0C143D544600C6E6BC /* EZWorkOutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB046DE8143D544500C6E6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB046DFB143D544600C6E6BC /* InfoPlist.strings in Resources */,
+				CB046E04143D544600C6E6BC /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB046E0A143D544600C6E6BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB046E1B143D544600C6E6BC /* InfoPlist.strings in Resources */,
+				CB046E1D143D544600C6E6BC /* EZWorkOutTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CB046E0B143D544600C6E6BC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB046DE6143D544500C6E6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB046DFD143D544600C6E6BC /* main.m in Sources */,
+				CB046E01143D544600C6E6BC /* EZWorkOutAppDelegate.m in Sources */,
+				CB046E07143D544600C6E6BC /* EZWorkOut.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB046E08143D544600C6E6BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB046E1F143D544600C6E6BC /* EZWorkOutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB046E15143D544600C6E6BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB046DE9143D544500C6E6BC /* EZWorkOut */;
+			targetProxy = CB046E14143D544600C6E6BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB046DF9143D544600C6E6BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB046DFA143D544600C6E6BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CB046E02143D544600C6E6BC /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB046E03143D544600C6E6BC /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CB046E19143D544600C6E6BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB046E1A143D544600C6E6BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB046E20143D544600C6E6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CB046E21143D544600C6E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB046E23143D544600C6E6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZWorkOut/EZWorkOut-Prefix.pch";
+				INFOPLIST_FILE = "EZWorkOut/EZWorkOut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CB046E24143D544600C6E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZWorkOut/EZWorkOut-Prefix.pch";
+				INFOPLIST_FILE = "EZWorkOut/EZWorkOut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CB046E26143D544600C6E6BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EZWorkOut.app/EZWorkOut";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZWorkOut/EZWorkOut-Prefix.pch";
+				INFOPLIST_FILE = "EZWorkOutTests/EZWorkOutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CB046E27143D544600C6E6BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/EZWorkOut.app/EZWorkOut";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EZWorkOut/EZWorkOut-Prefix.pch";
+				INFOPLIST_FILE = "EZWorkOutTests/EZWorkOutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB046DE4143D544500C6E6BC /* Build configuration list for PBXProject "EZWorkOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB046E20143D544600C6E6BC /* Debug */,
+				CB046E21143D544600C6E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB046E22143D544600C6E6BC /* Build configuration list for PBXNativeTarget "EZWorkOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB046E23143D544600C6E6BC /* Debug */,
+				CB046E24143D544600C6E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CB046E25143D544600C6E6BC /* Build configuration list for PBXNativeTarget "EZWorkOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB046E26143D544600C6E6BC /* Debug */,
+				CB046E27143D544600C6E6BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CB046E05143D544600C6E6BC /* EZWorkOut.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CB046E06143D544600C6E6BC /* EZWorkOut.xcdatamodel */,
+			);
+			currentVersion = CB046E06143D544600C6E6BC /* EZWorkOut.xcdatamodel */;
+			path = EZWorkOut.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CB046DE1143D544500C6E6BC /* Project object */;
+}

@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CBA90B66137F398600FAF365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B65137F398600FAF365 /* UIKit.framework */; };
+		CBA90B68137F398600FAF365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B67137F398600FAF365 /* Foundation.framework */; };
+		CBA90B6A137F398600FAF365 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B69137F398600FAF365 /* CoreGraphics.framework */; };
+		CBA90B6C137F398600FAF365 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B6B137F398600FAF365 /* CoreData.framework */; };
+		CBA90B72137F398600FAF365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA90B70137F398600FAF365 /* InfoPlist.strings */; };
+		CBA90B75137F398600FAF365 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA90B74137F398600FAF365 /* main.m */; };
+		CBA90B78137F398600FAF365 /* CTA_SplitViewAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA90B77137F398600FAF365 /* CTA_SplitViewAppDelegate.m */; };
+		CBA90B7B137F398600FAF365 /* CTA_SplitView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CBA90B79137F398600FAF365 /* CTA_SplitView.xcdatamodeld */; };
+		CBA90B7E137F398600FAF365 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA90B7C137F398600FAF365 /* MainWindow.xib */; };
+		CBA90B81137F398600FAF365 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA90B80137F398600FAF365 /* DetailViewController.m */; };
+		CBA90B84137F398600FAF365 /* DetailView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBA90B82137F398600FAF365 /* DetailView.xib */; };
+		CBA90B87137F398600FAF365 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA90B86137F398600FAF365 /* RootViewController.m */; };
+		CBA90B8E137F398600FAF365 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B65137F398600FAF365 /* UIKit.framework */; };
+		CBA90B8F137F398600FAF365 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B67137F398600FAF365 /* Foundation.framework */; };
+		CBA90B90137F398600FAF365 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B69137F398600FAF365 /* CoreGraphics.framework */; };
+		CBA90B91137F398600FAF365 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBA90B6B137F398600FAF365 /* CoreData.framework */; };
+		CBA90B99137F398600FAF365 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CBA90B97137F398600FAF365 /* InfoPlist.strings */; };
+		CBA90B9C137F398600FAF365 /* CTA_SplitViewTests.h in Resources */ = {isa = PBXBuildFile; fileRef = CBA90B9B137F398600FAF365 /* CTA_SplitViewTests.h */; };
+		CBA90B9E137F398600FAF365 /* CTA_SplitViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA90B9D137F398600FAF365 /* CTA_SplitViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CBA90B92137F398600FAF365 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CBA90B58137F398600FAF365 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CBA90B60137F398600FAF365;
+			remoteInfo = "CTA-SplitView";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CBA90B61137F398600FAF365 /* CTA-SplitView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CTA-SplitView.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA90B65137F398600FAF365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CBA90B67137F398600FAF365 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CBA90B69137F398600FAF365 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CBA90B6B137F398600FAF365 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CBA90B6F137F398600FAF365 /* CTA-SplitView-Info.plist */ = {isa = PBXFileReference; path = "CTA-SplitView-Info.plist"; sourceTree = "<group>"; };
+		CBA90B71137F398600FAF365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA90B73137F398600FAF365 /* CTA-SplitView-Prefix.pch */ = {isa = PBXFileReference; path = "CTA-SplitView-Prefix.pch"; sourceTree = "<group>"; };
+		CBA90B74137F398600FAF365 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CBA90B76137F398600FAF365 /* CTA_SplitViewAppDelegate.h */ = {isa = PBXFileReference; path = CTA_SplitViewAppDelegate.h; sourceTree = "<group>"; };
+		CBA90B77137F398600FAF365 /* CTA_SplitViewAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTA_SplitViewAppDelegate.m; sourceTree = "<group>"; };
+		CBA90B7A137F398600FAF365 /* CTA_SplitView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CTA_SplitView.xcdatamodel; sourceTree = "<group>"; };
+		CBA90B7D137F398600FAF365 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		CBA90B7F137F398600FAF365 /* DetailViewController.h */ = {isa = PBXFileReference; path = DetailViewController.h; sourceTree = "<group>"; };
+		CBA90B80137F398600FAF365 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		CBA90B83137F398600FAF365 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailView.xib; sourceTree = "<group>"; };
+		CBA90B85137F398600FAF365 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		CBA90B86137F398600FAF365 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		CBA90B8D137F398600FAF365 /* CTA-SplitViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CTA-SplitViewTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBA90B96137F398600FAF365 /* CTA-SplitViewTests-Info.plist */ = {isa = PBXFileReference; path = "CTA-SplitViewTests-Info.plist"; sourceTree = "<group>"; };
+		CBA90B98137F398600FAF365 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CBA90B9A137F398600FAF365 /* CTA-SplitViewTests-Prefix.pch */ = {isa = PBXFileReference; path = "CTA-SplitViewTests-Prefix.pch"; sourceTree = "<group>"; };
+		CBA90B9B137F398600FAF365 /* CTA_SplitViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTA_SplitViewTests.h; sourceTree = "<group>"; };
+		CBA90B9D137F398600FAF365 /* CTA_SplitViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTA_SplitViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CBA90B5E137F398600FAF365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA90B66137F398600FAF365 /* UIKit.framework in Frameworks */,
+				CBA90B68137F398600FAF365 /* Foundation.framework in Frameworks */,
+				CBA90B6A137F398600FAF365 /* CoreGraphics.framework in Frameworks */,
+				CBA90B6C137F398600FAF365 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA90B89137F398600FAF365 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA90B8E137F398600FAF365 /* UIKit.framework in Frameworks */,
+				CBA90B8F137F398600FAF365 /* Foundation.framework in Frameworks */,
+				CBA90B90137F398600FAF365 /* CoreGraphics.framework in Frameworks */,
+				CBA90B91137F398600FAF365 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CBA90B56137F398600FAF365 = {
+			isa = PBXGroup;
+			children = (
+				CBA90B6D137F398600FAF365 /* CTA-SplitView */,
+				CBA90B94137F398600FAF365 /* CTA-SplitViewTests */,
+				CBA90B64137F398600FAF365 /* Frameworks */,
+				CBA90B62137F398600FAF365 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CBA90B62137F398600FAF365 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CBA90B61137F398600FAF365 /* CTA-SplitView.app */,
+				CBA90B8D137F398600FAF365 /* CTA-SplitViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CBA90B64137F398600FAF365 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBA90B65137F398600FAF365 /* UIKit.framework */,
+				CBA90B67137F398600FAF365 /* Foundation.framework */,
+				CBA90B69137F398600FAF365 /* CoreGraphics.framework */,
+				CBA90B6B137F398600FAF365 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CBA90B6D137F398600FAF365 /* CTA-SplitView */ = {
+			isa = PBXGroup;
+			children = (
+				CBA90B76137F398600FAF365 /* CTA_SplitViewAppDelegate.h */,
+				CBA90B77137F398600FAF365 /* CTA_SplitViewAppDelegate.m */,
+				CBA90B7C137F398600FAF365 /* MainWindow.xib */,
+				CBA90B7F137F398600FAF365 /* DetailViewController.h */,
+				CBA90B80137F398600FAF365 /* DetailViewController.m */,
+				CBA90B82137F398600FAF365 /* DetailView.xib */,
+				CBA90B85137F398600FAF365 /* RootViewController.h */,
+				CBA90B86137F398600FAF365 /* RootViewController.m */,
+				CBA90B79137F398600FAF365 /* CTA_SplitView.xcdatamodeld */,
+				CBA90B6E137F398600FAF365 /* Supporting Files */,
+			);
+			path = "CTA-SplitView";
+			sourceTree = "<group>";
+		};
+		CBA90B6E137F398600FAF365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA90B6F137F398600FAF365 /* CTA-SplitView-Info.plist */,
+				CBA90B70137F398600FAF365 /* InfoPlist.strings */,
+				CBA90B73137F398600FAF365 /* CTA-SplitView-Prefix.pch */,
+				CBA90B74137F398600FAF365 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CBA90B94137F398600FAF365 /* CTA-SplitViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CBA90B9B137F398600FAF365 /* CTA_SplitViewTests.h */,
+				CBA90B9D137F398600FAF365 /* CTA_SplitViewTests.m */,
+				CBA90B95137F398600FAF365 /* Supporting Files */,
+			);
+			path = "CTA-SplitViewTests";
+			sourceTree = "<group>";
+		};
+		CBA90B95137F398600FAF365 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CBA90B96137F398600FAF365 /* CTA-SplitViewTests-Info.plist */,
+				CBA90B97137F398600FAF365 /* InfoPlist.strings */,
+				CBA90B9A137F398600FAF365 /* CTA-SplitViewTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CBA90B60137F398600FAF365 /* CTA-SplitView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA90BA1137F398600FAF365 /* Build configuration list for PBXNativeTarget "CTA-SplitView" */;
+			buildPhases = (
+				CBA90B5D137F398600FAF365 /* Sources */,
+				CBA90B5E137F398600FAF365 /* Frameworks */,
+				CBA90B5F137F398600FAF365 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CTA-SplitView";
+			productName = "CTA-SplitView";
+			productReference = CBA90B61137F398600FAF365 /* CTA-SplitView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CBA90B8C137F398600FAF365 /* CTA-SplitViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CBA90BA4137F398600FAF365 /* Build configuration list for PBXNativeTarget "CTA-SplitViewTests" */;
+			buildPhases = (
+				CBA90B88137F398600FAF365 /* Sources */,
+				CBA90B89137F398600FAF365 /* Frameworks */,
+				CBA90B8A137F398600FAF365 /* Resources */,
+				CBA90B8B137F398600FAF365 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CBA90B93137F398600FAF365 /* PBXTargetDependency */,
+			);
+			name = "CTA-SplitViewTests";
+			productName = "CTA-SplitViewTests";
+			productReference = CBA90B8D137F398600FAF365 /* CTA-SplitViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CBA90B58137F398600FAF365 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = Nistantrii;
+			};
+			buildConfigurationList = CBA90B5B137F398600FAF365 /* Build configuration list for PBXProject "CTA-SplitView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CBA90B56137F398600FAF365;
+			productRefGroup = CBA90B62137F398600FAF365 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CBA90B60137F398600FAF365 /* CTA-SplitView */,
+				CBA90B8C137F398600FAF365 /* CTA-SplitViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CBA90B5F137F398600FAF365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA90B72137F398600FAF365 /* InfoPlist.strings in Resources */,
+				CBA90B7E137F398600FAF365 /* MainWindow.xib in Resources */,
+				CBA90B84137F398600FAF365 /* DetailView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA90B8A137F398600FAF365 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA90B99137F398600FAF365 /* InfoPlist.strings in Resources */,
+				CBA90B9C137F398600FAF365 /* CTA_SplitViewTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CBA90B8B137F398600FAF365 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CBA90B5D137F398600FAF365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA90B75137F398600FAF365 /* main.m in Sources */,
+				CBA90B78137F398600FAF365 /* CTA_SplitViewAppDelegate.m in Sources */,
+				CBA90B7B137F398600FAF365 /* CTA_SplitView.xcdatamodeld in Sources */,
+				CBA90B81137F398600FAF365 /* DetailViewController.m in Sources */,
+				CBA90B87137F398600FAF365 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CBA90B88137F398600FAF365 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBA90B9E137F398600FAF365 /* CTA_SplitViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CBA90B93137F398600FAF365 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CBA90B60137F398600FAF365 /* CTA-SplitView */;
+			targetProxy = CBA90B92137F398600FAF365 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CBA90B70137F398600FAF365 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA90B71137F398600FAF365 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CBA90B7C137F398600FAF365 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA90B7D137F398600FAF365 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		CBA90B82137F398600FAF365 /* DetailView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA90B83137F398600FAF365 /* en */,
+			);
+			name = DetailView.xib;
+			sourceTree = "<group>";
+		};
+		CBA90B97137F398600FAF365 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CBA90B98137F398600FAF365 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CBA90B9F137F398600FAF365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CBA90BA0137F398600FAF365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_UNIVERSAL_IPHONE_OS)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		CBA90BA2137F398600FAF365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTA-SplitView/CTA-SplitView-Prefix.pch";
+				INFOPLIST_FILE = "CTA-SplitView/CTA-SplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CBA90BA3137F398600FAF365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTA-SplitView/CTA-SplitView-Prefix.pch";
+				INFOPLIST_FILE = "CTA-SplitView/CTA-SplitView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CBA90BA5137F398600FAF365 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CTA-SplitView.app/CTA-SplitView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTA-SplitViewTests/CTA-SplitViewTests-Prefix.pch";
+				INFOPLIST_FILE = "CTA-SplitViewTests/CTA-SplitViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CBA90BA6137F398600FAF365 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CTA-SplitView.app/CTA-SplitView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CTA-SplitViewTests/CTA-SplitViewTests-Prefix.pch";
+				INFOPLIST_FILE = "CTA-SplitViewTests/CTA-SplitViewTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CBA90B5B137F398600FAF365 /* Build configuration list for PBXProject "CTA-SplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA90B9F137F398600FAF365 /* Debug */,
+				CBA90BA0137F398600FAF365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CBA90BA1137F398600FAF365 /* Build configuration list for PBXNativeTarget "CTA-SplitView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA90BA2137F398600FAF365 /* Debug */,
+				CBA90BA3137F398600FAF365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CBA90BA4137F398600FAF365 /* Build configuration list for PBXNativeTarget "CTA-SplitViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CBA90BA5137F398600FAF365 /* Debug */,
+				CBA90BA6137F398600FAF365 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CBA90B79137F398600FAF365 /* CTA_SplitView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CBA90B7A137F398600FAF365 /* CTA_SplitView.xcdatamodel */,
+			);
+			currentVersion = CBA90B7A137F398600FAF365 /* CTA_SplitView.xcdatamodel */;
+			path = CTA_SplitView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CBA90B58137F398600FAF365 /* Project object */;
+}
